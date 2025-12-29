@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Iris Biometric System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Iris Recognition System</h1>
+    <p class="subtitle">
+      A simulated biometric system prototype for identity verification
+    </p>
+
+    <div class="iris-box">
+      <div class="iris-circle"></div>
+      <p class="scan-text">Place your eye in front of the scanner</p>
+    </div>
+
+    <button onclick="scanIris()">Scan Iris</button>
+
+    <p id="result"></p>
+
+    <p class="note">
+      * This system is a prototype for educational purposes only.
+      No real biometric data is collected.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
